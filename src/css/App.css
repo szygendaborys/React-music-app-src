@@ -1,0 +1,123 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  color:#080708;
+  outline:none !important;
+  box-shadow: none !important;
+  font-family: 'Lato', sans-serif;
+
+} 
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+  outline:none !important;
+  box-shadow:none !important;
+}
+
+.brighten-up {
+  filter: brightness(1.1);
+}
+
+
+/* BOTTOM NAVBAR */
+
+.main-panel {
+  position: fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#EDD3C4;
+  z-index: 99;
+  padding:40px 10px;
+  border-top: 2 px solid #82746B;
+}
+
+.buttons {
+  display:flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  height:65px;
+  background-color: #C8ADC0;
+  border:none;
+  margin: 20px 0;
+  border-radius: 20px;
+  font-size:1.5rem;
+} .buttons button:hover {
+  cursor: pointer;
+} .buttons button:active {
+  background-color:rgb(167, 144, 160);
+}
+
+.btn-menu {
+  background-color: #580058 !important;
+  margin:0 !important;
+  margin-bottom:30px !important;
+  color:white;
+  margin-right:5rem !important;
+  height: 60px !important;
+} .btn-menu:active {
+  background-color:#440044 !important;
+} .btn-menu:first-child {
+  margin-top:20px !important;
+}
+
+.description{
+  font-size:2rem;
+  margin-bottom:10px; 
+}
+
+.defaultdelay-button {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-size:1.5rem;
+}
+
+.defaultdelay {
+  background-color:#505B82;
+  color:#D8D6D8;
+  padding-left:20px;
+  padding-right:20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+} .defaultdelay:hover {
+  cursor: default;
+}
+
+.defaultdelay button {
+  color: #D8D6D8;
+  background-color: rgb(61, 69, 99);
+  height:50px;
+  font-size:1.5rem;
+  font-weight: bold;
+  transition:300ms ease;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 5px;
+} .defaultdelay span:hover {
+  cursor: pointer;
+  filter: brightness(1.5);
+}
+
+/* PLAYLIST CONTAINER */
+
+.playlist-container {
+  margin-top:40px;
+  margin-left:30px;
+}
+
+.playlist-items {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  margin-top:30px;
+  margin-left:30px;
+}
+
+.playlist-items button {
+  margin-right:30px;
+}
+
